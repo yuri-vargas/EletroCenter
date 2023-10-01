@@ -1,0 +1,16 @@
+@media screen and (min-width: 800px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .container {
+  }
+}
+
+@media screen and (min-width: 611px) {
+  footer {
+    height: 350px;
+  }
+}

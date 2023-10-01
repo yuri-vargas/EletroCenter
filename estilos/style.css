@@ -54,12 +54,10 @@ main {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin: 20px;
   width: 400px;
+  border: 1px solid var(--azulFraco);
+  border-radius: 10px;
 }
 .container h2 {
   text-align: center;
@@ -75,7 +73,7 @@ main {
 .imagem1 {
   margin-top: 20px;
   height: 200px;
-  width: 400px;
+  width: 100%;
   background-image: url(../imagens/img1.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -124,5 +122,19 @@ main {
 /* Começo do footer */
 footer {
   background-color: #00417a;
-  height: 100px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.containeriframes {
+}
+
+#iframes {
+}
+
+footer h3 {
+  color: white;
 }
