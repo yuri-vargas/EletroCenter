@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,600;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --corEscura: #2e3640;
+  --azulForte: #011126;
+  --azulMedio: #023e73;
+  --azulFraco: #034c8c;
+  --preto: #00040d;
+}
+
+/* Começo do HEADER */
+header {
+  background-color: #00417ad7;
+  height: 90px;
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+}
+
+li {
+  font-family: "Kanit";
+  font-weight: 500;
+  list-style: none;
+  margin: 10px;
+  color: white;
+  background-color: #2e3640;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+li:hover {
+  background-color: #485566;
+  cursor: pointer;
+}
+
+/*Começo do MAIN*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: 400px;
+}
+.container h2 {
+  text-align: center;
+  font-family: "Kanit";
+  font-weight: 700;
+  padding: 10px;
+}
+.container p {
+  text-align: justify;
+  font-family: "Kanit";
+  font-weight: 500;
+}
+.imagem1 {
+  margin-top: 20px;
+  height: 200px;
+  width: 400px;
+  background-image: url(../imagens/img1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagem2 {
+  margin-top: 20px;
+  height: 200px;
+  width: 400px;
+  background-image: url(../imagens/img4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.imagem3 {
+  margin-top: 20px;
+  height: 200px;
+  width: 400px;
+  background-image: url(../imagens/img5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.imagem4 {
+  margin-top: 20px;
+  height: 200px;
+  width: 400px;
+  background-image: url(../imagens/img6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.imagem5 {
+  margin-top: 20px;
+  height: 200px;
+  width: 400px;
+  background-image: url(../imagens/img7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Começo do footer */
+footer {
+  background-color: #00417a;
+  height: 100px;
+}
