@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilos/style.css" />
     <link rel="stylesheet" href="estilos/mediaQuery.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Eletro Center</title>
   </head>
   <body>
@@ -19,8 +20,9 @@
 
     <header>
       <div id="logo">
-        <h1>Eletro Center</h1>
-        <p>Prestadora de Serviços Elétricos</p>
+        <!--<h1>Eletro Center</h1>
+        <p>Prestadora de Serviços Elétricos</p>-->
+        <div class="logo"></div>
       </div>
       <nav>
         <ul>
@@ -77,7 +79,7 @@
       <div class="separador"></div>
 
       <section class="containerPrin">
-        <section class="container">
+        <section data-aos="zoom-in" class="container">
           <div class="imagem1"></div>
           <h2>Instalação Elétrica Profissional</h2>
           <p>
@@ -88,7 +90,7 @@
             elétrico eficiente e seguro.
           </p>
         </section>
-        <section class="container">
+        <section data-aos="zoom-in" class="container">
           <div class="imagem3"></div>
           <h2>Manutenção e Reparos</h2>
           <p>
@@ -99,7 +101,7 @@
             mais.
           </p>
         </section>
-        <section class="container">
+        <section data-aos="zoom-in" class="container">
           <div class="imagem2"></div>
           <h2>Atendimento na Área Rural</h2>
           <p>
@@ -110,7 +112,7 @@
             condicionado personalizados.
           </p>
         </section>
-        <section class="container">
+        <section data-aos="zoom-in" class="container">
           <div class="imagem4"></div>
           <h2>Instalação de Sistemas de Ar Condicionado</h2>
           <p>
@@ -119,7 +121,7 @@
             térmico, independentemente das condições climáticas.
           </p>
         </section>
-        <section class="container">
+        <section data-aos="zoom-in" class="container">
           <div class="imagem5"></div>
           <h2>Retrofit LED</h2>
           <p>
@@ -132,7 +134,7 @@
             uniforme.
           </p>
         </section>
-        <section class="container">
+        <section data-aos="zoom-in" class="container">
           <div class="imagem6"></div>
           <h2>Baixa e Média Tensão</h2>
           <p>
@@ -188,5 +190,9 @@
         <p>Lorem ipsum dolor sit amet consectetur.</p>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
