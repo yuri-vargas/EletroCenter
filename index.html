@@ -20,19 +20,30 @@
 
     <header>
       <div id="logo">
-        <!--<h1>Eletro Center</h1>
-        <p>Prestadora de Serviços Elétricos</p>-->
-        <div class="logo"></div>
+        <h1>Eletro Center</h1>
+        <p>Prestadora de Serviços Elétricos</p>
       </div>
-      <nav>
+      <!--<nav>
         <ul>
           <li>Home</li>
           <li>Serviços</li>
           <li>Sobre</li>
           <li>Fale Conosco</li>
         </ul>
+      </nav>-->
+      <nav>
+        <div class="menu">
+          <button id="toggle-menu">Ξ</button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Fale Conosco</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
+
     <main>
       <section class="principal">
         <section class="apresentacao">
@@ -194,5 +205,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>

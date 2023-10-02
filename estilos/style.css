@@ -25,7 +25,7 @@ header {
   z-index: 100;
 
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 #logo {
   color: white;
@@ -51,14 +51,90 @@ nav li {
   font-weight: 500;
   list-style: none;
   margin: 10px;
-  color: white;
-  background-color: #2e3640;
+  color: cornsilk;
+  background-color: var(--azulMedio);
   padding: 4px;
   border-radius: 10px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.menu {
+  background-image: linear-gradient(to right, #010b18, #022b4e);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+#toggle-menu {
+  background-image: linear-gradient(to right, #010b18, #022b4e);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+.dropdown-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none; /* Inicialmente, o menu está oculto */
+  background-image: linear-gradient(to right, #010b18, #022b4e);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  animation: slide-down 0.3s ease-in-out; /* Adicionamos uma animação de deslizamento */
+}
+
+.menu.active .dropdown-menu {
+  display: block; /* Quando a classe "active" é adicionada ao menu, o submenu é exibido */
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-10px); /* Slide para cima para ocultar o menu */
+    opacity: 0; /* Define a opacidade inicial como 0 */
+  }
+  to {
+    transform: translateY(0); /* Slide para baixo para mostrar o menu */
+    opacity: 1; /* Define a opacidade final como 1 */
+  }
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  text-align: center;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+}
+
+.content {
+  padding: 20px;
+}
+
 nav li:hover {
-  background-color: #485566;
+  background-image: linear-gradient(to right, #010b18, #014179);
   cursor: pointer;
 }
 
