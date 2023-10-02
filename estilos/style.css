@@ -75,13 +75,13 @@ body {
   padding: 10px;
   text-align: center;
   position: relative;
+  width: 100%;
 }
 
 #toggle-menu {
   background-image: linear-gradient(to right, #010b18, #022b4e);
   color: #fff;
   border: none;
-  border-radius: 10px;
   cursor: pointer;
   display: inline;
   width: 100%;
@@ -164,7 +164,7 @@ main {
 }
 
 .tamanhoParte1 {
-  width: 450px;
+  width: 100%;
   margin: auto;
 }
 .parte1 h1 {
