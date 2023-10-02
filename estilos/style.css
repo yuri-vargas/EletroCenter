@@ -31,8 +31,18 @@ header {
   color: white;
   padding: 20px;
 }
+.logo {
+  background-image: url(../imagens/logo01.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 180px;
+  border-radius: 10px;
+}
 ul {
   display: flex;
+  flex-direction: column;
   justify-content: end;
 }
 
@@ -99,7 +109,7 @@ main {
 }
 .tamanhoParte2 {
   width: 95%;
-  height: 300px;
+  height: 400px;
   margin: 20px;
 }
 
@@ -119,7 +129,9 @@ main {
 
 .separador {
   height: 3px;
-  width: 100%;
+  width: 90vw;
+  border-radius: 10px;
+  margin: auto;
   background-image: linear-gradient(to right, #00060e, #034c8c);
 }
 .containerPrin {
@@ -131,7 +143,7 @@ main {
 .container {
   margin: 20px;
   height: 500px;
-  width: 400px;
+  width: 300px;
   border-radius: 10px;
   transition: filter 0.5s ease;
 }
