@@ -1,4 +1,8 @@
-document.getElementById("toggle-menu").addEventListener("click", function () {
-  var menu = document.querySelector(".menu");
-  menu.classList.toggle("active");
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleButton = document.getElementById("toggleMenu");
+  const sideMenu = document.getElementById("sideMenu");
+
+  toggleButton.addEventListener("click", function () {
+    sideMenu.classList.toggle("open");
+  });
 });

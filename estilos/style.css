@@ -58,68 +58,65 @@ nav li {
   border-radius: 10px;
 }
 
-.menu {
-  background-image: linear-gradient(to right, #010b18, #022b4e);
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  position: relative;
-  width: 100%;
-}
-
-#toggle-menu {
-  background-image: linear-gradient(to right, #010b18, #022b4e);
+#toggleMenu {
+  background-color: #333;
   color: #fff;
   border: none;
-  cursor: pointer;
-  display: inline;
-  width: 100%;
-  font-size: 1.3em;
-}
-
-.dropdown-menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: none; /* Inicialmente, o menu está oculto */
-  background-image: linear-gradient(to right, #010b18, #022b4e);
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  z-index: 1;
-  animation: slide-down 0.3s ease-in-out; /* Adicionamos uma animação de deslizamento */
-}
-
-.menu.active .dropdown-menu {
-  display: block; /* Quando a classe "active" é adicionada ao menu, o submenu é exibido */
-}
-
-@keyframes slide-down {
-  from {
-    transform: translateY(-10px); /* Slide para cima para ocultar o menu */
-    opacity: 0; /* Define a opacidade inicial como 0 */
-  }
-  to {
-    transform: translateY(0); /* Slide para baixo para mostrar o menu */
-    opacity: 1; /* Define a opacidade final como 1 */
-  }
-}
-
-.dropdown-menu li {
   padding: 10px;
-  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
 }
 
-.dropdown-menu a {
+.menu {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Menu oculto inicialmente no lado esquerdo */
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  transition: left 0.3s ease;
+  z-index: 1; /* Colocado abaixo do botão */
+}
+
+.menu.open {
+  left: 0; /* Mostrar o menu quando a classe 'open' for aplicada */
+}
+
+#sideMenu {
+  padding: 20px;
+}
+
+#sideMenu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#sideMenu li {
+  margin-bottom: 10px;
+}
+
+#sideMenu a {
   text-decoration: none;
   color: #fff;
-  display: block;
   font-size: 18px;
 }
 
-.content {
-  padding: 20px;
+@media (max-width: 768px) {
+  #toggleMenu {
+    display: block;
+  }
+
+  .menu {
+    width: 100%;
+    left: -100%; /* Ocultar o menu completamente no lado esquerdo */
+  }
+
+  .menu.open {
+    left: 0; /* Mostrar o menu quando a classe 'open' for aplicada */
+  }
 }
 
 nav li:hover {
