@@ -295,3 +295,26 @@ footer h3 {
 #servicos {
   margin: 10px;
 }
+.area1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.linha {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  text-align: justify;
+}
+#imgResidencial {
+  height: 300px;
+  width: 300px;
+
+  margin: 10px;
+
+  background-image: url(../imagens/residencial.jpg);
+  background-position: left center;
+  background-size: cover;
+}
