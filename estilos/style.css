@@ -58,65 +58,35 @@ nav li {
   border-radius: 10px;
 }
 
-#toggleMenu {
-  background-color: #333;
+.menu-button {
+  background-color: #3498db;
   color: #fff;
-  border: none;
-  padding: 10px;
+  padding: 10px 20px;
+  position: fixed;
+  top: 10%;
+  right: 0;
+  transform: translateY(-50%);
   cursor: pointer;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 2;
 }
 
 .menu {
   position: fixed;
   top: 0;
-  left: -250px; /* Menu oculto inicialmente no lado esquerdo */
+  left: -250px; /* Define a largura inicial do menu (menu está escondido) */
   width: 250px;
   height: 100%;
   background-color: #333;
   transition: left 0.3s ease;
-  z-index: 1; /* Colocado abaixo do botão */
 }
 
-.menu.open {
-  left: 0; /* Mostrar o menu quando a classe 'open' for aplicada */
-}
-
-#sideMenu {
-  padding: 20px;
-}
-
-#sideMenu ul {
+.menu ul {
   list-style-type: none;
   padding: 0;
 }
 
-#sideMenu li {
-  margin-bottom: 10px;
-}
-
-#sideMenu a {
-  text-decoration: none;
+.menu ul li {
+  padding: 10px;
   color: #fff;
-  font-size: 18px;
-}
-
-@media (max-width: 768px) {
-  #toggleMenu {
-    display: block;
-  }
-
-  .menu {
-    width: 100%;
-    left: -100%; /* Ocultar o menu completamente no lado esquerdo */
-  }
-
-  .menu.open {
-    left: 0; /* Mostrar o menu quando a classe 'open' for aplicada */
-  }
 }
 
 nav li:hover {
