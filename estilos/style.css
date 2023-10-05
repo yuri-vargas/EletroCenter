@@ -41,11 +41,6 @@ header {
   width: 180px;
   border-radius: 10px;
 }
-ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-}
 
 nav li {
   font-family: "Kanit";
@@ -61,14 +56,18 @@ nav li {
 .menu-button {
   background-color: #3498db;
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px;
+  margin: 10px;
   position: fixed;
-  top: 10%;
+  top: 9%;
   right: 0;
   transform: translateY(-50%);
   cursor: pointer;
+  border-radius: 5px;
 }
-
+.menu-button:hover {
+  background-image: linear-gradient(to right, #010b18, #014179);
+}
 .menu {
   position: fixed;
   top: 0;
@@ -283,3 +282,6 @@ footer {
 footer h3 {
   color: white;
 }
+/* FIM DO MAIN */
+
+/*COMEÇO DO SERVIÇOS*/
