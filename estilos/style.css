@@ -285,3 +285,13 @@ footer h3 {
 /* FIM DO MAIN */
 
 /*COMEÇO DO SERVIÇOS*/
+#titulo p {
+  padding: 10px;
+}
+.titulo {
+  text-align: center;
+}
+
+#servicos {
+  margin: 10px;
+}
