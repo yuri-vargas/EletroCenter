@@ -14,6 +14,7 @@
   flex-direction: row;
   text-align: right;
   align-items: center;
+  text-align: justify;
 }
 
 .linha {
@@ -36,6 +37,8 @@
   background-image: url(../imagens/residencial.jpg);
   background-position: left center;
   background-size: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
 }
 
 .area2 {
@@ -43,6 +46,7 @@
   flex-direction: row-reverse;
   text-align: left;
   align-items: center;
+  text-align: justify;
 }
 
 #imgReparos {
@@ -54,6 +58,8 @@
   background-image: url(../imagens/reparos.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
 }
 
 #imgMelhorias {
@@ -65,10 +71,117 @@
   background-image: url(../imagens/melhorias.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
 }
 .area3 {
   display: flex;
   flex-direction: row;
   text-align: right;
   align-items: center;
+  text-align: justify;
+}
+
+#reparos {
+  height: 350px;
+}
+
+#imgManutencao {
+  height: 300px;
+  width: 300px;
+
+  margin: 10px;
+
+  background-image: url(../imagens/img5.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+}
+.area4 {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  align-items: center;
+  text-align: justify;
+}
+
+#imgRural {
+  height: 300px;
+  width: 300px;
+
+  margin: 10px;
+
+  background-image: url(../imagens/img4.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+}
+.area5 {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  align-items: center;
+  text-align: justify;
+}
+
+#imgTensao {
+  height: 300px;
+  width: 300px;
+
+  margin: 10px;
+
+  background-image: url(../imagens/img8.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+}
+.area6 {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  align-items: center;
+  text-align: justify;
+}
+
+#imgAr {
+  height: 300px;
+  width: 300px;
+
+  margin: 10px;
+
+  background-image: url(../imagens/img6.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+}
+.area7 {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  align-items: center;
+  text-align: justify;
+}
+
+#imgLed {
+  height: 300px;
+  width: 300px;
+
+  margin: 10px;
+
+  background-image: url(../imagens/img7.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px black;
+}
+.area8 {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  align-items: center;
+  text-align: justify;
 }
