@@ -151,7 +151,7 @@ main {
 .parte1 h1 {
   font-family: "Playfair Display";
   font-weight: 700;
-  color: var(--azulFraco);
+  color: whitesmoke;
   background-color: #00000054;
 }
 .parte1 p {

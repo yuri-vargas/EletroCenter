@@ -1,8 +1,9 @@
 #titulo p {
-  padding: 10px;
+  padding: 20px;
 }
 .titulo {
   text-align: center;
+  padding: 10px;
 }
 
 #servicos {
