@@ -1,0 +1,54 @@
+#titulo p {
+  padding: 10px;
+}
+.titulo {
+  text-align: center;
+}
+
+#servicos {
+  margin: 10px;
+}
+.area1 {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+}
+
+.linha {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+}
+
+.linha h2 {
+  margin-bottom: 10px;
+}
+#imgResidencial {
+  height: 300px;
+  width: 300px;
+
+  margin: 10px;
+
+  background-image: url(../imagens/residencial.jpg);
+  background-position: left center;
+  background-size: cover;
+}
+
+.area2 {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: left;
+}
+
+#imgPredial {
+  height: 300px;
+  width: 300px;
+
+  margin: 10px;
+
+  background-image: url(../imagens/predial.jpg);
+  background-position: center;
+  background-size: cover;
+}

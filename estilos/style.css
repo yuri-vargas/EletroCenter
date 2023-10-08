@@ -20,13 +20,15 @@
 /* Começo do HEADER */
 header {
   background-image: linear-gradient(to right, #011126, #034c8c);
-  height: 130px;
+  height: 100px;
   position: sticky;
   top: 0;
   z-index: 100;
-
+  border-bottom: 3px outset #3498db;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 #logo {
   color: white;
@@ -53,16 +55,22 @@ nav li {
   border-radius: 10px;
 }
 
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: overline;
+  color: white;
+}
+
 .menu-button {
-  background-color: #3498db;
+  font-family: "Kanit";
   color: #fff;
   padding: 10px;
   margin: 10px;
-  position: fixed;
-  top: 9%;
-  right: 0;
-  transform: translateY(-50%);
   cursor: pointer;
+  border: 1px solid #3498db;
   border-radius: 5px;
 }
 .menu-button:hover {
@@ -186,12 +194,8 @@ main {
   height: 500px;
   width: 300px;
   border-radius: 10px;
-  transition: filter 0.5s ease;
 }
 
-.container:hover {
-  filter: saturate(0);
-}
 .container h2 {
   text-align: center;
   font-family: "Kanit";
@@ -211,6 +215,12 @@ main {
   background-image: url(../imagens/img1.png);
   background-size: cover;
   background-repeat: no-repeat;
+  filter: grayscale(0%);
+  transition: filter 0.5s ease;
+}
+
+.imagem1:hover {
+  filter: grayscale(100%);
 }
 
 .imagem2 {
@@ -221,6 +231,11 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
+  filter: grayscale(0%);
+  transition: filter 0.5s ease;
+}
+.imagem2:hover {
+  filter: grayscale(100%);
 }
 
 .imagem3 {
@@ -231,6 +246,11 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  filter: grayscale(0%);
+  transition: filter 0.5s ease;
+}
+.imagem3:hover {
+  filter: grayscale(100%);
 }
 
 .imagem4 {
@@ -241,6 +261,11 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  filter: grayscale(0%);
+  transition: filter 0.5s ease;
+}
+.imagem4:hover {
+  filter: grayscale(100%);
 }
 
 .imagem5 {
@@ -251,6 +276,11 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  filter: grayscale(0%);
+  transition: filter 0.5s ease;
+}
+.imagem5:hover {
+  filter: grayscale(100%);
 }
 
 .imagem6 {
@@ -261,6 +291,11 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  filter: grayscale(0%);
+  transition: filter 0.5s ease;
+}
+.imagem6:hover {
+  filter: grayscale(100%);
 }
 
 /* Começo do footer */
@@ -285,57 +320,3 @@ footer h3 {
 /* FIM DO MAIN */
 
 /*COMEÇO DO SERVIÇOS*/
-#titulo p {
-  padding: 10px;
-}
-.titulo {
-  text-align: center;
-}
-
-#servicos {
-  margin: 10px;
-}
-.area1 {
-  display: flex;
-  flex-direction: row;
-  text-align: right;
-}
-
-.linha {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  height: 300px;
-  padding: 10px;
-}
-
-.linha h2 {
-  margin-bottom: 10px;
-}
-#imgResidencial {
-  height: 300px;
-  width: 300px;
-
-  margin: 10px;
-
-  background-image: url(../imagens/residencial.jpg);
-  background-position: left center;
-  background-size: cover;
-}
-
-.area2 {
-  display: flex;
-  flex-direction: row-reverse;
-  text-align: left;
-}
-
-#imgPredial {
-  height: 300px;
-  width: 300px;
-
-  margin: 10px;
-
-  background-image: url(../imagens/predial.jpg);
-  background-position: center;
-  background-size: cover;
-}
