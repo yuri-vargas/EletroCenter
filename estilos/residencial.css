@@ -1,0 +1,17 @@
+.fundo {
+  width: 100vw;
+  height: 30vh;
+  background-image: url(../imagens/fundoResidencial.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(1.1);
+}
+
+.resumo {
+  padding: 20px;
+}
+
+.resumo li {
+  list-style: disc;
+}
