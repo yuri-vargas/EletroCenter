@@ -16,7 +16,13 @@
   align-items: center;
   text-align: justify;
 }
-
+.linkLinha {
+  text-decoration: none;
+  color: black;
+}
+.linkLinha:hover {
+  color: #014179;
+}
 .linha {
   display: flex;
   flex-direction: column;
@@ -34,6 +40,7 @@
   height: 100%;
   border-radius: 10px;
 }
+
 #imgResidencial {
   height: 300px;
   width: 300px;
