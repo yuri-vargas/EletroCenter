@@ -28,6 +28,12 @@
 .linha h2 {
   margin-bottom: 10px;
 }
+.link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
 #imgResidencial {
   height: 300px;
   width: 300px;
@@ -39,8 +45,13 @@
   background-size: cover;
   border-radius: 10px;
   box-shadow: 1px 1px 3px black;
-}
 
+  filter: grayscale(0%);
+  transition: filter 0.3s ease;
+}
+#imgResidencial:hover {
+  filter: grayscale(100%);
+}
 .area2 {
   display: flex;
   flex-direction: row-reverse;
