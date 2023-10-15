@@ -1,0 +1,41 @@
+#fundoMelhorias {
+  width: 100%;
+  height: 50vh;
+
+  background-image: url(../imagens/img1.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.resumo {
+  padding: 20px;
+}
+
+.resumo li {
+  margin: 15px;
+}
+
+.orcamento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.orcamentoLink {
+  text-decoration: none;
+  color: white;
+  background-color: #023e73;
+
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.orcamentoLink:hover {
+  background-color: #034c8d;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
