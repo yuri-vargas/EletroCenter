@@ -1,5 +1,5 @@
 .fundo {
-  width: 100vw;
+  width: 100%;
   height: 30vh;
   background-image: url(../imagens/fundoResidencial.jpg);
   background-position: center;
@@ -14,4 +14,26 @@
 
 .resumo li {
   list-style: disc;
+}
+.orcamento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.orcamentoLink {
+  text-decoration: none;
+  color: white;
+  background-color: #023e73;
+
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.orcamentoLink:hover {
+  background-color: #034c8d;
+  transform: scale(1.1);
+  text-decoration: underline;
 }
