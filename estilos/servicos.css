@@ -125,6 +125,11 @@
   background-size: cover;
   border-radius: 10px;
   box-shadow: 1px 1px 3px black;
+  filter: grayscale(0%);
+  transition: filter 0.3s ease;
+}
+#imgManutencao:hover {
+  filter: grayscale(100%);
 }
 .area4 {
   display: flex;
@@ -145,6 +150,11 @@
   background-size: cover;
   border-radius: 10px;
   box-shadow: 1px 1px 3px black;
+  filter: grayscale(0%);
+  transition: filter 0.3s ease;
+}
+#imgRural:hover {
+  filter: grayscale(100%);
 }
 .area5 {
   display: flex;
@@ -165,6 +175,11 @@
   background-size: cover;
   border-radius: 10px;
   box-shadow: 1px 1px 3px black;
+  filter: grayscale(0%);
+  transition: filter 0.3s ease;
+}
+#imgTensao:hover {
+  filter: grayscale(100%);
 }
 .area6 {
   display: flex;
@@ -185,6 +200,11 @@
   background-size: cover;
   border-radius: 10px;
   box-shadow: 1px 1px 3px black;
+  filter: grayscale(0%);
+  transition: filter 0.3s ease;
+}
+#imgAr:hover {
+  filter: grayscale(100%);
 }
 .area7 {
   display: flex;
@@ -205,6 +225,11 @@
   background-size: cover;
   border-radius: 10px;
   box-shadow: 1px 1px 3px black;
+  filter: grayscale(0%);
+  transition: filter 0.3s ease;
+}
+#imgLed:hover {
+  filter: grayscale(100%);
 }
 .area8 {
   display: flex;

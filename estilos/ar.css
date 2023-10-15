@@ -1,0 +1,47 @@
+.fundoAr {
+  height: 50vh;
+  width: 100%;
+  background-image: url(../imagens/fundoAr.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+#resumo {
+  padding: 20px;
+}
+
+#resumo li {
+  margin: 15px;
+}
+
+#resumo2 {
+  padding: 20px;
+}
+
+#resumo2 li {
+  margin: 15px;
+}
+
+.orcamento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.orcamentoLink {
+  text-decoration: none;
+  color: white;
+  background-color: #023e73;
+
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.orcamentoLink:hover {
+  background-color: #034c8d;
+  transform: scale(1.1);
+  text-decoration: underline;
+}
