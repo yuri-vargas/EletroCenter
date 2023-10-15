@@ -110,10 +110,7 @@ nav li:hover {
 }
 
 /*Começo do MAIN*/
-main {
-}
-.apresentacao {
-}
+
 .principal {
   width: 100%;
 }
@@ -162,8 +159,6 @@ main {
   background-color: #00000054;
 }
 
-.parte2 {
-}
 .tamanhoParte2 {
   width: 95%;
   height: 400px;
@@ -315,11 +310,6 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-.containeriframes {
-}
-
-#iframes {
 }
 
 footer h3 {

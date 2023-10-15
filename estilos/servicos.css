@@ -78,8 +78,12 @@
   background-size: cover;
   border-radius: 10px;
   box-shadow: 1px 1px 3px black;
+  filter: grayscale(0%);
+  transition: filter 0.3s ease;
 }
-
+#imgReparos:hover {
+  filter: grayscale(100%);
+}
 #imgMelhorias {
   height: 300px;
   width: 300px;
